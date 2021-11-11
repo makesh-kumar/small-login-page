@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* min-height: 100vh; */
+}
+.form-control {
+  margin: 20px;
+}
+
+.form-field {
+  display: flex;
+}
+.btn {
+  text-align: center;
+}
+
+form {
+  height: 60vh;
+}

@@ -1,0 +1,15 @@
+input {
+  color: black !important;
+  border-color: blue;
+  min-width: 240px !important;
+}
+/* input::-webkit-datetime-edit {
+  color: transparent;
+} */
+input:focus::-webkit-datetime-edit {
+  color: #000;
+}
+
+.error {
+  border-color: red !important;
+}
